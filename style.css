@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    font-family: Azeret Mono;
+}
+
+
+               /* My Banner Styles */
+.banner{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 652px;
+    background-image: url(../next-Gennady-korotkevich-first-assignment-repo/assets/Hero-bg.png);
+    text-align: center;
+}
+.banner-container{
+    width: 998px;
+    height: 582px;
+    margin: 26px 221px 44px 221px;
+    background-size: contain;
+    align-items: center;
+    
+}
+
+.banner-container.banner-img{
+    margin: 0 50%;
+    width: 240.28px;
+    height: 240px;
+}
+
+.container-title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin-top: 32px;
+}
+
+
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+
+.banner-btn{
+    width: 208px;
+    height: 66px;
+    margin-top: 32px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+
